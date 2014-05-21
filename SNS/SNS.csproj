@@ -114,7 +114,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Browser.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\OS.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserLoginHistory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
